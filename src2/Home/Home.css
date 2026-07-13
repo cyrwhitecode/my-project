@@ -1,0 +1,190 @@
+.welcome {
+    color: rgb(0, 183, 255);
+    font-size: 40px;
+}
+
+.btn {
+    margin: 30px 0;
+    padding: 15px 40px;
+    border: none;
+    border-radius: 20px;
+    font-weight: bold;
+    background-color: rgb(0, 153, 255);
+    color: white;
+    font-size: 18px;
+    transition: 0.3s ease all;
+}
+
+.btn:hover {
+    background-color: blue;
+    font-size: 20px;
+}
+
+@media (width < 870px) {
+    .btn {
+        font-size: 15px;
+        padding: 10px 20px;
+    }
+}
+
+.prices {
+    color: rgb(12, 103, 240);
+    background-color: aliceblue;
+    width: 100%;
+    border-radius: 0 0 15px 15px;
+    font-weight: bold;
+    box-sizing: border-box;
+}
+
+.coffee {
+    border-radius: 50%;
+    width: 100%;
+    height: 250px;
+    border: solid;
+    flex: 1;
+}
+
+@media (width < 870px) {
+    .coffee {
+        height: 100px;
+        margin-top: 30px;
+    }
+    p {
+        font-size: 11px;
+    }
+    h2 {
+        font-size: 20px;
+    }
+    .welcome {
+        font-size: 20px;
+    }
+    .btn {
+        font-size: 12px;
+        padding: 5px 10px;
+    }
+    .btn:hover {
+        font-size: 14px;
+    }
+}
+
+.firstH {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    margin-bottom: 50px;
+    border: solid 1px transparent;
+    box-sizing: border-box;
+}
+
+.secondH {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border: solid 1px transparent;
+    gap: 30%;
+    padding: 10px 5%;
+    box-sizing: border-box;
+}
+
+.underH {
+    flex-direction: column;
+    flex: 1;
+    box-sizing: border-box;
+}
+
+/*Mobile display width 580px*/
+@media screen and (max-width: 870px) {
+    .firstH {
+        gap: 15px;
+    }
+    .secondH {
+        justify-content: space-around;
+        align-items: flex-start;
+        gap: 20px;
+    }
+    .underH {
+        flex-direction: column;
+        border: solid 1px transparent;
+    }
+}
+
+/*desk/laptop display width over 580px*/
+@media screen and (min-width: 870px) {
+    .firstH {
+        align-items: normal;
+    }
+    
+}
+
+.best-sellers-container {
+    padding: 5% 0 0px 0;
+    margin: 0 4%;
+    margin-bottom: 20px;
+    border: solid 1px rgba(4, 30, 65, 0.993);
+    border-radius: 15px;
+    background-color: rgb(1, 1, 17);
+}
+
+@media screen and (min-width: 870px) {
+
+    .best-sellers-container {
+        margin: 0 15%;
+        padding: 4% 4%;
+}
+
+    .promotion {
+        margin: 0 15%;
+    }
+
+}
+
+.best-sellers {
+    display: flex;
+    gap: 2%;
+    flex-wrap: wrap;
+    padding: 4% 3%;
+}
+
+.best-items {
+    border: solid 1px rgba(4, 30, 65, 0.897);
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 5px;
+    width: 30%;
+}
+
+.best-items-img {
+    width: 100%;
+    height: 80%;
+    border-radius: 15px 15px 0 0;
+    flex-grow: 1;
+}
+
+.promotion {
+    border: solid 1px rgba(24, 68, 124, 0.281);
+    border-radius: 10px;
+    padding-bottom: 20px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color: rgb(1, 1, 17);
+}
+
+.promo {
+    background-color: rgb(0, 65, 245);
+    border-radius: 10px 10px 0 0;
+}
+
+@media screen and (max-width: 870px) {
+    .promotion {
+        margin: 0 4%;
+    }
+    .prices {
+        font-size: 10px;
+    }
+    
+}

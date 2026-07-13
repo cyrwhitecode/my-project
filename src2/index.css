@@ -1,0 +1,88 @@
+
+:root {
+    --c-primary: linear-gradient(rgb(2, 1, 10) 0%, rgb(16, 18, 31) 10%, rgb(8, 3, 46) 90%);
+    --c-secondary: rgb(213, 213, 235);
+    --height: 100vh;
+    --width: 100%;
+    --display: flex;
+    --direct-content: column;
+    --content: center;
+    --align: center;
+}
+
+html {
+    background: var(--c-primary);
+    display: var(--display);
+    flex-direction: var(--direct-content);
+    align-items: var(--content);
+    min-height: 100vh;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: inherit;
+    color: var(--c-secondary);
+    min-height: var(--height);
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+h1, h3, h2, h4, span, Nav {
+    font-weight: bold;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+h3 {
+    font-size: 30px;
+}
+
+h4 {
+    font-size: 25px;
+}
+
+p {
+    font-size: 22px;
+    font-weight: 1px;
+}
+
+@media screen and (max-width: 780px) {
+    h1 {
+        font-size: 35px;
+    }
+    
+    h2 {
+        font-size: 30px;
+    }
+    
+    h3 {
+        font-size: 23px;
+    }
+    
+    h4 {
+        font-size: 23px;
+    }
+    
+    p {
+        font-size: 22px;
+        font-weight: 1px;
+    }
+}
+
+li {
+    list-style: none;
+    text-decoration: underline;
+    cursor: pointer;
+}

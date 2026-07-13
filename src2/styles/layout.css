@@ -1,0 +1,28 @@
+.layout {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    top: 0;
+    position: sticky;
+    background-color: black;
+    padding: 30px 0;
+    box-sizing: border-box;
+}
+
+.footer {
+    margin-top: auto;
+    background-color: rgb(6, 1, 27);
+    padding: 20px 0;
+    box-sizing: border-box;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-grow: 1;
+    margin-bottom: 20px;
+}

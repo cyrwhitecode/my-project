@@ -1,0 +1,32 @@
+
+.aboutContainer {
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+    gap: 20px;
+    color: rgb(255, 255, 255);
+    background-image: url('/cafe/v.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    z-index: -2;
+}
+
+.second-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10%;
+    margin: 8% 5% 0 0;
+    background-color: rgba(89, 108, 136, 0.459);
+    backdrop-filter: blur(3px);
+    gap: 30px;
+    z-index: -1;
+    border-radius: 0 10px 10px 0;
+}
+
+.second-container p {
+    color: black;
+    font-size: 16px;
+} 
