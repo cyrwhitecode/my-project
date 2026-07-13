@@ -1,6 +1,6 @@
 import { createContext, useEffect } from "react";
 import { useState } from "react";
-import { Navigate } from "react-router-dom";
+
 
 export const AuthContext = createContext();
 
@@ -8,7 +8,6 @@ export function AuthProvider ({children}) {
 
     const [token, setToken] = useState(null);
     const [user, setUser] = useState(null);
-    const [loading, setLoading] = useState(true)
     const isAuthenticated = !!token;
 
     useEffect(() => {
@@ -48,8 +47,7 @@ export function AuthProvider ({children}) {
                 token,
                 login,
                 logout,
-                isAuthenticated,
-                loading,
+                isAuthenticated
             }}
         >
             {children}

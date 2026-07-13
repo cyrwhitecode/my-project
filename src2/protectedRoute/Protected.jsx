@@ -1,9 +1,9 @@
-import { useAuth } from "../hook/useAuth"
+import { useAuth } from "../hook/UseAuth.jsx"
 import { Navigate } from "react-router-dom"
 
 export const Protected = ({ children }) => {
     
-    const { isAuthenticated, loading } = useAuth();
+    const { isAuthenticated } = useAuth();
 
     if (!isAuthenticated) {
         return <Navigate to="/" replace />

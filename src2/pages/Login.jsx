@@ -1,9 +1,9 @@
 import { useState } from "react"
-import { useNavigate } from "react-router-dom";
-import { useAuth } from "../hook/useAuth";
+import { useNavigate } from "react-router-dom"
+import { useAuth } from "../hook/UseAuth.jsx"
 import '../styles/login.css'
 
-export function Login ({ isOpen }) {
+export function Login () {
 
     const [email, setEmail] = useState("");
     const [password, setPassword] = useState("");
