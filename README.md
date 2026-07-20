@@ -1,16 +1,44 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# CoffeeShop - Site & Réservations
 
-Currently, two official plugins are available:
+Site web moderne et dynamique pour une achats et réservations en ligne.
+Ce projet présente le menu du café, expose les différentes categories et une expérience utilisateur fluide. 
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Démo en ligne
 
-## React Compiler
+**[Voir la démo sur Netlify] (https://lien-site.netlify.app)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Fonctionnalités
 
-## Expanding the ESLint configuration
+* Page d'accueil intéractive: Présentation des concepts / Illustrations photographiques.
+* Authentification: Page de connexion par email & mot de passe.
+* Interface Responsive: Adapté aux écrans mobiles / tablettes / ordinateurs. 
+* Performances optimisées: Temps de rechargement ultra-rapide grace à VITE.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Technologies utilisées
+
+* Front-end: [React](https://react.dev/)
+* Style: [tailwind CSS](https://tailwindcss.com)
+* Outillage & conception: [Vite](https://vitejs.dev/)
+* Déploiement: [Netlify](https://www.netlify.com/)
+* Control de versions: [Git & GitHub] 
+
+## Installation et lancement
+
+Si vous souhaitez récupérer ce projet et le lancer sur votre machine:
+
+* Cloner le dépot
+    `bash`
+    git clone [https://github.com/cyrwhitecode/my-project.git]
+    cd my-project
+
+* Installer les dépenances et lancer le serveur de développement
+    `bash`
+    npm install
+    npm run dev
+
+* Visualisation via l'adresse [http://localhost:5173]
+* tester le build de production `bash` 
+    npm run build
+
+* Crée par ``cyrwhitecode``
