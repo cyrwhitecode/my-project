@@ -1,6 +1,6 @@
 import { useState } from "react"
 import { useNavigate } from "react-router-dom"
-import { useAuth } from "../hook/UseAuth.jsx"
+import { useAuth } from "../hook/UseAuthTemp.jsx"
 import '../styles/login.css'
 
 export function Login () {

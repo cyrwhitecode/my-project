@@ -1,5 +1,5 @@
 import './Home.css'
-import { useAuth } from '../hook/UseAuth.jsx'
+import { useAuth } from '../hook/UseAuthTemp.jsx'
 import { useNavigate } from 'react-router-dom';
 
 export const Home = () => {
