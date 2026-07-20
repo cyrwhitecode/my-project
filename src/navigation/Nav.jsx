@@ -1,6 +1,6 @@
 import { NavLink, useNavigate } from "react-router-dom"
 import '../styles/links.css'
-import { useAuth } from "../hook/useAuth";
+import { useAuth } from "../hook/UseAuthTemp.jsx";
 import { useState } from "react";
 
 export function Nav () {
