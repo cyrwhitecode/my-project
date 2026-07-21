@@ -6,7 +6,7 @@ Ce projet présente le menu du café, expose les différentes categories et une 
 
 ## Démo en ligne
 
-**[Voir la démo sur Netlify] (https://lien-site.netlify.app)
+**[Voir la démo sur Netlify] (https://whitecoffeeproject.netlify.app)
 
 ## Fonctionnalités
 
@@ -41,4 +41,4 @@ Si vous souhaitez récupérer ce projet et le lancer sur votre machine:
 * tester le build de production `bash` 
     npm run build
 
-* Crée par ``cyrwhitecode``
+Crée par  `cyrwhitecode`
