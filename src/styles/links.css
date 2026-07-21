@@ -87,7 +87,8 @@
     position: fixed;
     top: 0;
     right: 0;
-    width: 60%;
+    bottom: 0;
+    width: 70%;
     padding: 30px 30px;
     transform: translateX(100%);
     transition: 0.3s ease all;
@@ -129,10 +130,6 @@
         font-size: 14px;
         font-weight: 500;
         transition: 0.3s ease all;
-    }
-    .menu-btn:hover {
-        font-size: 18px;
-        color: rgb(0, 110, 236);
     }
 
     .except {

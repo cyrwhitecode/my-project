@@ -144,17 +144,23 @@
     .under-container {
         width: 90%;
     }
+    .search-text {
+        font-size: 14px;
+        max-width: 100%;
+    }
     .search {
         width: 50%;
         height: 30px;
         font-size: 14px;
+        border: none;
     }
     .go {
         width: 25%;
         height: 30px;
+        font-size: 13px;
     }
     .welcome-shop h3 {
-        font-size: 20px;
+        font-size: 18px;
         width: 80%;
     }
     .all-products {

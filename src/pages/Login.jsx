@@ -54,7 +54,7 @@ export function Login () {
                         <input 
                             className="inp"
                             type="password" 
-                            placeholder="password"
+                            placeholder="Natsu7002"
                             value={password}    
                             onChange={(e) => setPassword(e.target.value)}
                         />
